@@ -644,7 +644,7 @@ header .navbar ul li a:hover {
 .experience .timeline {
   position: relative;
   max-width: 1200px;
-  min-height: 40vh;
+  /* min-height: 20vh; */
   margin: 0 auto;
 }
 .experience .timeline::after {
@@ -725,6 +725,7 @@ header .navbar ul li a:hover {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
+  height: auto;
 }
 .experience .content .tag {
   font-size: 1.6rem;
@@ -803,6 +804,9 @@ header .navbar ul li a:hover {
   .experience .left::after {
     left: 15px;
   }
+  .experience .content{
+    height: fit-content;
+  }
   .experience .right::after {
     left: 15px;
   }
@@ -810,7 +814,7 @@ header .navbar ul li a:hover {
     left: 0%;
   }
   .morebtn {
-    margin-top: 3rem;
+    display: none;
   }
 }
 /* experience media queries ends */
