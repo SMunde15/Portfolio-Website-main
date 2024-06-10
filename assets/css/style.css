@@ -643,8 +643,9 @@ header .navbar ul li a:hover {
 /* experience section starts */
 .experience .timeline {
   position: relative;
-  max-width: 1200px;
-  /* min-height: 20vh; */
+  max-width: 1700px;
+  max-height: 200vh;
+  /* min-height: 40vh; */
   margin: 0 auto;
 }
 .experience .timeline::after {
@@ -749,12 +750,13 @@ header .navbar ul li a:hover {
   justify-content: center;
 }
 .morebtn .btn {
-  position: relative;
+  position: absolute;
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
+  margin-top: 0.5rem;
   background: #2506ad;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
@@ -779,7 +781,7 @@ header .navbar ul li a:hover {
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience {
-    min-height: 60vh;
+    min-height: 50vh;
     /* height: 50vh; */
   }
   .experience .timeline {
